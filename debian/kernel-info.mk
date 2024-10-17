@@ -11,7 +11,7 @@ VARIANT = android
 KERNEL_BASE_VERSION = 4.19.322
 
 # The kernel cmdline to use
-KERNEL_BOOTIMAGE_CMDLINE = bootopt=64S3,32N2,64N2 androidboot.selinux=permissive androidboot.init_fatal_reboot_target=recovery kpti=off buildvariant=userdebug console=tty0 droidian.lvm.prefer
+KERNEL_BOOTIMAGE_CMDLINE = bootopt=64S3,32N2,64N2 androidboot.init_fatal_reboot_target=recovery kpti=off quiet loglevel=3 cgroup_disable=pressure cgroup.memory=nokmem,nosocket nodebugmon noirqdebug buildvariant=user droidian.lvm.prefer console=tty0
 
 # Slug for the device vendor. This is going to be used in the KERNELRELASE
 # and package names.
@@ -31,7 +31,7 @@ DEVICE_FULL_NAME = Xiaomi Redmi 9A/9i/9C/9A Sport/ POCO C3/C31
 KERNEL_CONFIG_USE_FRAGMENTS = 1
 
 # Enable kernel config device extra fragments
-# KERNEL_CONFIG_EXTRA_FRAGMENTS = container.config debug.config other.config
+KERNEL_CONFIG_EXTRA_FRAGMENTS = debug.config halium.config
 
 # Whether to use diffconfig to generate the device-specific configuration.
 # If you enable this, you should set KERNEL_CONFIG_USE_FRAGMENTS to 1.
@@ -87,7 +87,7 @@ KERNEL_BOOTIMAGE_PAGE_SIZE = 2048
 KERNEL_BOOTIMAGE_BASE_OFFSET = 0x40078000
 KERNEL_BOOTIMAGE_KERNEL_OFFSET = 0x00008000
 KERNEL_BOOTIMAGE_INITRAMFS_OFFSET = 0x11a88000
-KERNEL_BOOTIMAGE_SECONDIMAGE_OFFSET = 0x00000000
+KERNEL_BOOTIMAGE_SECONDIMAGE_OFFSET = 0x00e88000
 KERNEL_BOOTIMAGE_TAGS_OFFSET = 0x07808000
 
 # Specify boot image security patch level if needed
