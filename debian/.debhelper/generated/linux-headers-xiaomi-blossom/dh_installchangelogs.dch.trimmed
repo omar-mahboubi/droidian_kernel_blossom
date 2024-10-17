@@ -1,0 +1,11 @@
+linux-android-xiaomi-blossom (0.0.0+git20241016103411.908e2ff.droidian+git20241016105138.f60a2f7.droidian+git20241016112506.4dc7f57.droidian+git20241016135303.122b544.droidian+git20241016195154.a49a058.droidian) trixie; urgency=medium
+
+  * Initial commit
+  * Initial Droidian setup
+  * Initial defconfig patches
+  * Removed dtb requirement
+  * Various fixes
+  * Various fixes
+  * Patched defconfig
+
+ -- Omar Mahboubi <omar_mahboubi@tutanota.com>  Wed, 16 Oct 2024 20:51:54 +0100

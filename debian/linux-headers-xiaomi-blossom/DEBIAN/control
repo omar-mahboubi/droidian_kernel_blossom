@@ -1,0 +1,11 @@
+Package: linux-headers-xiaomi-blossom
+Source: linux-android-xiaomi-blossom
+Version: 0.0.0+git20241016103411.908e2ff.droidian+git20241016105138.f60a2f7.droidian+git20241016112506.4dc7f57.droidian+git20241016135303.122b544.droidian+git20241016195154.a49a058.droidian
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 7
+Depends: linux-headers-4.19.322-xiaomi-blossom (= 0.0.0+git20241016103411.908e2ff.droidian+git20241016105138.f60a2f7.droidian+git20241016112506.4dc7f57.droidian+git20241016135303.122b544.droidian+git20241016195154.a49a058.droidian)
+Section: kernel
+Priority: optional
+Description: Linux kernel for Xiaomi Redmi 9A/9i/9C/9A Sport/ POCO C3/C31 - Headers (latest)
+ This package depends to the latest kernel headers available for the Xiaomi Redmi 9A/9i/9C/9A Sport/ POCO C3/C31.

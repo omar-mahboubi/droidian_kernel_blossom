@@ -1,0 +1,5 @@
+cffc213dc5e8ab2c147f11a8abe4673c  boot/Image.gz-4.19.322-xiaomi-blossom
+891cad36737260869d813ac0fc074287  boot/System.map-4.19.322-xiaomi-blossom
+f81351e3fdd420e24d3b8ce00b75aa55  boot/config-4.19.322-xiaomi-blossom
+322756105b68f63184014100587bdbc4  boot/dtb-4.19.322-xiaomi-blossom
+7fb98300ac95e4dbd9ead6f26176fc6f  usr/share/doc/linux-image-4.19.322-xiaomi-blossom/changelog.gz
