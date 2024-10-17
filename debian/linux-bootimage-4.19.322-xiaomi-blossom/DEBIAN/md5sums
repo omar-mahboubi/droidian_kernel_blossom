@@ -1,6 +1,0 @@
-4e551b770154a9ca6ac18923bc7e7618  boot/boot.img-4.19.322-xiaomi-blossom
-cd86ecb037b2eca246bb0b880e0039ad  boot/dtbo.img-4.19.322-xiaomi-blossom
-818c19a4253184b753c9fab50806fe59  boot/recovery.img-4.19.322-xiaomi-blossom
-2e9074f503f24af4dddff587b5fc6f79  boot/vbmeta.img-4.19.322-xiaomi-blossom
-aac3afa56850943939027d9974f22d90  lib/flash-bootimage/4.19.322-xiaomi-blossom.conf
-7fb98300ac95e4dbd9ead6f26176fc6f  usr/share/doc/linux-bootimage-4.19.322-xiaomi-blossom/changelog.gz

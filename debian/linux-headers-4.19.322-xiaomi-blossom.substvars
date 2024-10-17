@@ -1,4 +1,0 @@
-perl:Depends=perl:any
-shlibs:Depends=libc6 (>= 2.38), libncursesw6 (>= 6), libssl3t64 (>= 3.0.0), libtinfo6 (>= 6)
-misc:Depends=
-misc:Pre-Depends=
